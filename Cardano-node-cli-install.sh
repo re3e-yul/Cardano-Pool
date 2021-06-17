@@ -17,12 +17,6 @@ source .bashrc
 ghcup upgrade
 ghcup install cabal 3.4.0.0
 ghcup set cabal 3.4.0.0
-nano .bashrc 
-cd $HOME
-source .bashrc
-ghcup upgrade
-ghcup install cabal 3.4.0.0
-ghcup set cabal 3.4.0.0
 ghcup install ghc 8.10.4
 ghcup set ghc 8.10.4
 echo PATH="$HOME/.local/bin:$PATH" >> $HOME/.bashrc
